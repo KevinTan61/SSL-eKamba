@@ -27,7 +27,7 @@ print(os.getenv('CUDA_LAUNCH_BLOCKING'))
 
 
 def graph_y_after_dot(data, label="Label stats", dim=1):
-    
+
     if dim >= data.ndim:
         print(f"Error: dim parameter {dim} is out of bounds for data with {data.ndim} dimensions")
         return
